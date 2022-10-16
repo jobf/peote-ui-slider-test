@@ -1,0 +1,289 @@
+{ "Name" : "IGNORED/NOT TRANSMITTED" , "Id" : 0, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MODWHEEL" , "Id" : 1, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "BREATH CONTROL (receive only)" , "Id" : 2, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ARP PATTERN (0..7 = up, down, ud1, ud2, order, random, chord, drum)" , "Id" : 3, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 7, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 4, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PORTAMENTO TIME" , "Id" : 5, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "USED FOR NRPN DATA VALUES" , "Id" : 6, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PART VOLUME" , "Id" : 7, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PREGLIDE SEMITONES *** -12..+12 (0=preglide disabled)" , "Id" : 8, "Type" : "CC", "ZeroSign" : 64, "Min" : -12, "Max" : 12, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ARP/GENERAL SYNC RATE (64..191 bpm) (common)" , "Id" : 9, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PAN POSITION ***" , "Id" : 10, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "EXPRESSION PEDAL" , "Id" : 11, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NON-SYNC PAN RATE" , "Id" : 12, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC PAN RATE 0..34 (non-sync, 32Triplet..12bars)" , "Id" : 13, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 34, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "VOCODER STEREO WIDTH (common)" , "Id" : 14, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "VOCODER SIBILANCE LEVEL (common)" , "Id" : 15, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MODWHEEL DISTORTION ***" , "Id" : 16, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "DISTORTION COMPENSATION" , "Id" : 17, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MODWHEEL DELAY SEND" , "Id" : 18, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NON-SYNC DELAY TIME" , "Id" : 19, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC DELAY TIME 0..19 (non-sync, 32Triplet..2bars)" , "Id" : 20, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 19, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "DELAY FEEDBACK" , "Id" : 21, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "DELAY STEREO WIDTH" , "Id" : 22, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "DELAY RATIO" , "Id" : 23, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MODWHEEL REVERB SEND ***" , "Id" : 24, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "REVERB DECAY" , "Id" : 25, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MODWHEEL CHORUS SEND ***" , "Id" : 26, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NON-SYNC CHORUS RATE" , "Id" : 27, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC CHORUS RATE 0..34 (non-sync, 32Triplet..12bars)" , "Id" : 28, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 34, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "CHORUS FEEDBACK ***" , "Id" : 29, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "CHORUS MOD DEPTH" , "Id" : 30, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "CHORUS MOD CENTRE POINT" , "Id" : 31, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "BANK SELECT 1..8 (bit 6 set forces perf mode, bit 5 set forces program mode)" , "Id" : 32, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 8, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "EQ LEVEL *** (0, 1..63, 64, 65..126, 127 = LP, LPshelf, flat, HPshelf, HP)" , "Id" : 33, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "EQ FREQUENCY" , "Id" : 34, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NON-SYNC EQ MOD RATE" , "Id" : 35, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC EQ MOD RATE 0..34 (non-sync, 32Triplet..12bars)" , "Id" : 36, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 34, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "EQ MOD DEPTH" , "Id" : 37, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 38, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 39, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 SEMITONE *** -12..+12" , "Id" : 40, "Type" : "CC", "ZeroSign" : 64, "Min" : -12, "Max" : 12, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 CENT *** -50..+50" , "Id" : 41, "Type" : "CC", "ZeroSign" : 64, "Min" : -50, "Max" : 50, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 BENDWHEEL PITCH AMOUNT ***" , "Id" : 42, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 LFO1 PITCH AMOUNT ***" , "Id" : 43, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 MOD.ENV PITCH AMOUNT ***" , "Id" : 44, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 PULSE WIDTH POSITION *** (0=50% or in-phase double wave)" , "Id" : 45, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 LFO2 PULSE WIDTH MOD ***" , "Id" : 46, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC1 MOD.ENV PULSE WIDTH MOD ***" , "Id" : 47, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 SEMITONE *** -12..+12" , "Id" : 48, "Type" : "CC", "ZeroSign" : 64, "Min" : -12, "Max" : 12, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 CENT *** -50..+50" , "Id" : 49, "Type" : "CC", "ZeroSign" : 64, "Min" : -50, "Max" : 50, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 BENDWHEEL PITCH AMOUNT ***" , "Id" : 50, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 LFO1 PITCH AMOUNT ***" , "Id" : 51, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 MOD.ENV PITCH AMOUNT ***" , "Id" : 52, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 PULSE WIDTH POSITION *** (0=50% or in-phase double wave)" , "Id" : 53, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 LFO2 PULSE WIDTH MOD ***" , "Id" : 54, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 MOD.ENV PULSE WIDTH MOD ***" , "Id" : 55, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 SEMITONE *** -12..+12" , "Id" : 56, "Type" : "CC", "ZeroSign" : 64, "Min" : -12, "Max" : 12, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 CENT *** -50..+50" , "Id" : 57, "Type" : "CC", "ZeroSign" : 64, "Min" : -50, "Max" : 50, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 BENDWHEEL PITCH AMOUNT ***" , "Id" : 58, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 LFO1 PITCH AMOUNT ***" , "Id" : 59, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 MOD.ENV PITCH AMOUNT ***" , "Id" : 60, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 PULSE WIDTH POSITION *** (0=50% or in-phase double wave)" , "Id" : 61, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 LFO2 PULSE WIDTH MOD ***" , "Id" : 62, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 MOD.ENV PULSE WIDTH MOD ***" , "Id" : 63, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SUSTAIN / MOMENTARY ARP LATCH ON" , "Id" : 64, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ENVELOPE MONO MULTI MODES(see packed parameter 1)" , "Id" : 65, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 3, "StartBit" : 0, "BitCount" : 3}
+{ "Name" : "AMP ENV SINGLE/MULTI" , "Id" : 65, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 0, "BitCount" : 1}
+{ "Name" : "MOD ENV SINGLE/MULTI" , "Id" : 65, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 1, "BitCount" : 1}
+{ "Name" : "FM ENV SINGLE/MULTI" , "Id" : 65, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 2, "BitCount" : 1}
+{ "Name" : "---" , "Id" : 66, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 0, "NumParts" : 0, "StartBit" : 0, "BitCount" : 0}
+{ "Name" : "UNISON / VOICE TYPE / FILTER TYPE(see packed parameter 2)" , "Id" : 67, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 3, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "UNISON COUNT (0 OFF, 1…7 = 2…8 VOICES)" , "Id" : 67, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 7, "NumParts" : 1, "StartBit" : 0, "BitCount" : 3}
+{ "Name" : "POLYPHONY MODE (0 = MONO, 1 = MONO AUTOGLIDE, 2 = POLY WITH SAME NOTE VOICE STEALING)" , "Id" : 67, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 2, "NumParts" : 1, "StartBit" : 3, "BitCount" : 2}
+{ "Name" : "FILTER TYPE (0 = 12dB, 1 = 24 dB)" , "Id" : 67, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 5, "BitCount" : 1}
+{ "Name" : "UNISON DETUNE" , "Id" : 68, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "INDIVIDUAL OSCILLATOR RANDOM DETUNE" , "Id" : 69, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PORTAMENTO MODE (0=exp, 1=lin)" , "Id" : 70, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC 1,2,3 OCTAVE / OSC 1>2 SYNC(see packed parameter 3)" , "Id" : 71, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 4, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC 1 OCTAVE" , "Id" : 71, "Type" : "CCP", "ZeroSign" : 0, "Min" : -1, "Max" : 2, "NumParts" : 1, "StartBit" : 0, "BitCount" : 2}
+{ "Name" : "OSC 2 OCTAVE" , "Id" : 71, "Type" : "CCP", "ZeroSign" : 0, "Min" : -1, "Max" : 2, "NumParts" : 1, "StartBit" : 0, "BitCount" : 2}
+{ "Name" : "OSC 3 OCTAVE" , "Id" : 71, "Type" : "CCP", "ZeroSign" : 0, "Min" : -1, "Max" : 2, "NumParts" : 1, "StartBit" : 0, "BitCount" : 2}
+{ "Name" : "OSC 1 > 2 SYNC " , "Id" : 71, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 0, "BitCount" : 1}
+{ "Name" : "OSC1 LEVEL (to filter)" , "Id" : 72, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC2 LEVEL (to filter)" , "Id" : 73, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC3 LEVEL (to filter)" , "Id" : 74, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NOISE LEVEL (to filter)" , "Id" : 75, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSC 1*2 RINGMOD LEVEL (to filter)" , "Id" : 76, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "EXTERNAL INPUT  (to filter)" , "Id" : 77, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LFO DELAY MONO MULTI MODE (see packed parameter 4)" , "Id" : 78, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 2, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LFO 1 DELAY MULTI MODE 1 = ON" , "Id" : 78, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 0, "BitCount" : 1}
+{ "Name" : "LFO 2 DELAY MULTI MODE 1 = ON" , "Id" : 78, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 1, "BitCount" : 1}
+{ "Name" : "LFO 1,2 KEYSYNC / LOCK / ONE-SHOT (see packed parameter 5)" , "Id" : 79, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 6, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LFO 1 SHOT MODE 1 = ON" , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 0, "BitCount" : 1}
+{ "Name" : "LFO 1 KEYSYNC" , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 1, "BitCount" : 1}
+{ "Name" : "LFO 1 LOCK 0 = INDEPENDANT PER VOICE, 1 = ALL VOICES SAME PHASE " , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 2, "BitCount" : 1}
+{ "Name" : "LFO 2 SHOT MODE 1 = ON" , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 3, "BitCount" : 1}
+{ "Name" : "LFO 2 KEYSYNC" , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 4, "BitCount" : 1}
+{ "Name" : "LFO 2 LOCK 0 = INDEPENDANT PER VOICE, 1 = ALL VOICES SAME PHASE " , "Id" : 79, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 5, "BitCount" : 1}
+{ "Name" : "NON-SYNC LFO1 SPEED" , "Id" : 80, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC LFO1 SPEED 0..34 (non-sync, 32Triplet..12bars)" , "Id" : 81, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 34, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LFO1 DELAY (GRADUAL ONSET TIME/ ONE-SHOT MODE DELAY)" , "Id" : 82, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NON-SYNC LFO2 SPEED" , "Id" : 83, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "SYNC LFO2 SPEED 0..34 (non-sync, 32Triplet..12bars)" , "Id" : 84, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 34, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LFO2 DELAY (GRADUAL ONSET TIME/ ONE-SHOT MODE DELAY)" , "Id" : 85, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "--- (may be used in future software releases)" , "Id" : 86, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ARPEGGIATOR SYNC SETTING 0..15 (32Triplet..1 bar)" , "Id" : 87, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 15, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ARPEGGIATOR GATE TIME *** (+64 GIVES TIED NOTE IN MONO MODE)" , "Id" : 88, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ARPEGGIATOR CONTROL (see packed parameter 6)" , "Id" : 89, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 4, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NUMBER OF OCTAVES (0…3 = 1,2,3,4)" , "Id" : 89, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 3, "NumParts" : 1, "StartBit" : 0, "BitCount" : 2}
+{ "Name" : "ARPEGGIATOR OFF/ON" , "Id" : 89, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 2, "BitCount" : 1}
+{ "Name" : "ARPEGGIATOR KEYSYNC CONTROL OFF/ON" , "Id" : 89, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 3, "BitCount" : 1}
+{ "Name" : "ARPEGGIATOR LATCH OFF/ON" , "Id" : 89, "Type" : "CCP", "ZeroSign" : 0, "Min" : 0, "Max" : 1, "NumParts" : 1, "StartBit" : 4, "BitCount" : 1}
+{ "Name" : "DISTORTION LEVEL" , "Id" : 90, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "REVERB SEND LEVEL" , "Id" : 91, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "DELAY SEND LEVEL" , "Id" : 92, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "CHORUS SEND LEVEL" , "Id" : 93, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "PAN MOD DEPTH" , "Id" : 94, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "VOCODER BALANCE (0=off 64=full vocoder 127=modulator only) (common)" , "Id" : 95, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 96, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 97, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "NRPN NUMBER" , "Id" : 98, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "IGNORED / NOT TRANSMITTED (for future compatibility, assume value is 0)" , "Id" : 99, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 100, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "---" , "Id" : 101, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER FREQUENCY LFO2 MOD DEPTH ***" , "Id" : 102, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER Q NORMALISE (127=zero filter drive at max resonance)" , "Id" : 103, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER OVERDRIVE" , "Id" : 104, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER FREQUENCY" , "Id" : 105, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER RESONANCE" , "Id" : 106, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FILTER FREQUENCY MOD.ENV DEPTH ***" , "Id" : 107, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "AMPLITUDE ENVELOPE ATTACK" , "Id" : 108, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "AMPLITUDE ENVELOPE DECAY" , "Id" : 109, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "AMPLITUDE ENVELOPE SUSTAIN" , "Id" : 110, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "AMPLITUDE ENVELOPE RELEASE" , "Id" : 111, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "AMPLITUDE ENVELOPE VELOCITY DEPTH ***" , "Id" : 112, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "--- (may be used in future software releases)" , "Id" : 113, "Type" : "NONE", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MOD. ENVELOPE  ATTACK" , "Id" : 114, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MOD. ENVELOPE  DECAY" , "Id" : 115, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MOD. ENVELOPE  SUSTAIN" , "Id" : 116, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MOD. ENVELOPE  RELEASE" , "Id" : 117, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "MOD. ENVELOPE VELOCITY DEPTH ***" , "Id" : 118, "Type" : "CC", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "VOICE TO OUTPUT & EFFECTS LEVEL BOOST (0..30dB)" , "Id" : 119, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF WITH FAST RELEASE (receive only)" , "Id" : 120, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "RESET CONTROLLERS (receive only)" , "Id" : 121, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "LOCAL ON/OFF (ALSO VALUE 63 IS USED FOR SEQUENCER MODE)" , "Id" : 122, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF (receive only)" , "Id" : 123, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF (receive only)" , "Id" : 124, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF (receive only)" , "Id" : 125, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF (receive only)" , "Id" : 126, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "ALL NOTES OFF (receive only)" , "Id" : 127, "Type" : "CC", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FM FIXED LEVEL" , "Id" : 0, "Type" : "NRPN", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FM ENVELOPE DEPTH ***" , "Id" : 1, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FM ENVELOPE VELOCITY DEPTH ***" , "Id" : 2, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FM ENVELOPE ATTACK" , "Id" : 3, "Type" : "NRPN", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "FM ENVELOPE DECAY" , "Id" : 4, "Type" : "NRPN", "ZeroSign" : 0, "Min" : 0, "Max" : 127, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSCs 1,2,3 MODWHEEL DIRECT PITCH DEPTH ***" , "Id" : 5, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSCs 1,2,3 AFTERTOUCH DIRECT PITCH DEPTH ***" , "Id" : 6, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSCs 1,2,3 BREATH DIRECT PITCH DEPTH ***" , "Id" : 7, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name" : "OSCs 1,2,3 MODWHEEL LFO1 PITCH DEPTH ***" , "Id" : 8, "Type" : "NRPN", "ZeroSign" : 64, "Min" : -64, "Max" : 64, "NumParts" : 1, "StartBit" : 0, "BitCount" : 7}
+{ "Name": "OSCs 1,2,3 AFTERTOUCH LFO1 PITCH DEPTH ***" , "Id": 9, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSCs 1,2,3 BREATH LFO1 PITCH DEPTH ***" , "Id": 10, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER KEYBOARD TRACKING (0=NONE, 127=PRECISE PITCH TRACK)" , "Id": 11, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER MODWHEEL DIRECT FREQUENCY DEPTH ***" , "Id": 12, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER AFTERTOUCH DIRECT FREQUENCY DEPTH ***" , "Id": 13, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER BREATH DIRECT FREQUENCY DEPTH ***" , "Id": 14, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER MODWHEEL LFO2 FREQUENCY DEPTH ***" , "Id": 15, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER AFTERTOUCH LFO2 FREQUENCY DEPTH ***" , "Id": 16, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER BREATH LFO2 FREQUENCY DEPTH ***" , "Id": 17, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "AMPLITUDE MODWHEEL DIRECT DEPTH ***" , "Id": 18, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "AMPLITUDE AFTERTOUCH DIRECT DEPTH ***" , "Id": 19, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "AMPLITUDE BREATH DIRECT DEPTH ***" , "Id": 20, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EFFECTS TYPE CONTROL (see packed parameter 7)" , "Id": 21, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 2, "StartBit": 0, "BitCount": 7}
+{ "Name": "REVERB TYPE (VALUES 6,7 NOT USED)" , "Id": 21, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 5, "NumParts": 1, "StartBit": 0, "BitCount": 3}
+{ "Name": "CHORUS/PHASER CONTROL (0 = CHORUS, 1 = PHASER)" , "Id": 21, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 3, "BitCount": 1}
+{ "Name": "EFFECTS GLOBAL SYNC CONTROL (see packed parameter 8)" , "Id": 22, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 3, "StartBit": 0, "BitCount": 7}
+{ "Name": "CHORUS GLOBAL SYNC (OFF, LEFT, CENTRE, RIGHT)" , "Id": 22, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 0, "BitCount": 2}
+{ "Name": "PAN GLOBAL SYNC (OFF, LEFT, CENTRE, RIGHT)" , "Id": 22, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 2, "BitCount": 2}
+{ "Name": "EQ FREQUENCY GLOBAL SYNC (OFF, LOW, MID, HIGH)" , "Id": 22, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 4, "BitCount": 2}
+{ "Name": "AUDIO INPUT CONTROL (see packed parameter 9)" , "Id": 23, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 2, "StartBit": 0, "BitCount": 7}
+{ "Name": "AUDIO INPUT TRIGGER CONTROL OFF/ON" , "Id": 23, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 5, "BitCount": 1}
+{ "Name": "AUDIO INPUT TO FX CONTROL OFF/ON" , "Id": 23, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 6, "BitCount": 1}
+{ "Name": "VOCODER SIBILANCE TYPE (0=hp, 1=noise) (common)" , "Id": 24, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EFFECT TYPE SELECTOR/KEYBOARD OCTAVE (see packed parameter 10)" , "Id": 25, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 2, "StartBit": 0, "BitCount": 7}
+{ "Name": "EFFECT TYPE (DEL, REV, CHOR, DIST, EQ, PAN, VOCODER) VALUE 7 NOT USED" , "Id": 25, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 6, "NumParts": 1, "StartBit": 0, "BitCount": 3}
+{ "Name": "KEYBOARD OCTAVE SHIFT (4 BIT SIGNED, -4…4)" , "Id": 25, "Type": "NRPNP", "ZeroSign": 8, "Min": -4, "Max": 4, "NumParts": 1, "StartBit": 3, "BitCount": 4}
+{ "Name": "OSC, SOURCE, PW, LFO SELECTORS (see packed parameter 11)(end of A/K-station similarity)" , "Id": 26, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 4, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC SELECT (0,1,2 = OSC 1, 2, 3) VALUE 3 NOT USED" , "Id": 26, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 0, "BitCount": 2}
+{ "Name": "SOURCE SELECT (0,1,2 = NOISE, RING, EXT) VALUE 3 NOT USED" , "Id": 26, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 2, "BitCount": 2}
+{ "Name": "PW SELECT (0,1,2 = POSITION, LFO2, MOD ENV) VALUE 3 NOT USED" , "Id": 26, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 4, "BitCount": 2}
+{ "Name": "LFO 1 / LFO 2 (0, 1)" , "Id": 26, "Type": "NRPNP", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 6, "BitCount": 1}
+{ "Name": "--- (may be used in future software releases)" , "Id": 27, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 28, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 29, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 30, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 31, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 4, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 32, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 5, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 33, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 6, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 34, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 7, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 35, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 8, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 36, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 9, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 37, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 10, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 38, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 11, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 39, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 12, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 40, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 13, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 41, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 14, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 42, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 15, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 43, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 16, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 44, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 17, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 45, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 18, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 46, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 19, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 47, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 20, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 48, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 21, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 49, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 22, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC1 WAVEFORM (0..31)" , "Id": 50, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC2 WAVEFORM (0..31)" , "Id": 51, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC3 WAVEFORM (0..31)53LFO1 WAVEFORM (0..31)" , "Id": 52, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO2 WAVEFORM (0..31)55LFO1 UNIPOLAR (0= centre-zero, 1=all positive)" , "Id": 54, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO2 UNIPOLAR (0= centre-zero, 1=all positive)" , "Id": 56, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO1 KEYSYNC START PHASE (0..357 degrees)" , "Id": 57, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO2 KEYSYNC START PHASE (0..357 degrees)" , "Id": 58, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO1 SYNC DELAY TIME 0..34 (non-sync, 32Triplet..12bars)" , "Id": 59, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO2 SYNC DELAY TIME 0..34 (non-sync, 32Triplet..12bars)" , "Id": 60, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "MIX MODULATION SELECTOR (0=normal, 1=pots control mod levels)" , "Id": 61, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER TYPE (0..2 = LP, BP, HP)" , "Id": 62, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC1 LFO1 LEVEL MOD ***" , "Id": 63, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC2 LFO2 LEVEL MOD ***" , "Id": 64, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC3 A/D ENV LEVEL MOD ***" , "Id": 65, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "NOISE LFO1 LEVEL MOD ***" , "Id": 66, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "RING1*2 LFO1 LEVEL MOD ***" , "Id": 67, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "AUDIO INPUT LFO1 LEVEL MOD ***" , "Id": 68, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC123 WAVEFORM KEYSYNC PHASE (0..357 degrees)" , "Id": 69, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "NOISE TYPE (0..3 = white, hp, bp, hp*bp)" , "Id": 70, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "ARPEGGIATOR PATTERN (0..32 0=off, 32 patterns. In DRUM MODE, 33 patterns)" , "Id": 71, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 32, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FILTER FREQUENCY VELOCITY CONTROL ***" , "Id": 72, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "ARPEGGIATOR PATTERN VELOCITY MODE (0=use note-on velocity, 1= use velocity in pattern)" , "Id": 73, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FIXED NOTE CONTROL (0=off, 1-127 fix the note to midi 1..127 ie C#-2..G8)" , "Id": 74, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO1 OUTPUT LEVEL VELOCITY CONTROL ***" , "Id": 75, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "LFO2 OUTPUT LEVEL VELOCITY CONTROL ***" , "Id": 76, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC1 LFO2 LEVEL MOD ***" , "Id": 77, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "OSC 2>3 FM LFO1 DEPTH MOD ***" , "Id": 78, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "DRUM NOTE ON-TIME (0=turn off by note-off, 1-127=1msec..10sec auto-turn-off, ignoring note-off)" , "Id": 79, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 80, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 81, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "CATEGORY (0..23) (currently not transmitted)" , "Id": 82, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EXPRESSION PEDAL CONTROLLER NUMBER" , "Id": 83, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "FOOTSWITCH FUNCTION (0=sustain, 1=arp latch on override)" , "Id": 84, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART OUTPUT (0..5 = 1+2, 3+4, 1, 2, 3, 4)" , "Id": 85, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 5, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART MIDI CHANNEL (0..15  Note that in program mode, the global channel is used)" , "Id": 86, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART LOW NOTE LIMIT" , "Id": 87, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART HIGH NOTE LIMIT" , "Id": 88, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART SEMITONE OFFSET ***" , "Id": 89, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART CENT OFFSET ***" , "Id": 90, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PART VELOCITY FUNCTION (0..15  0=normal, 1=inverse, 2=xfade hi, 3=xfade lo, 12 limit settings)" , "Id": 91, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 15, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 92, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 93, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 94, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 95, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 96, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 97, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 98, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 99, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PERFORMANCE VOCODER PART SELECTION (0..3 for parts 1..4) (common)" , "Id": 100, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 3, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 101, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 102, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 103, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 104, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 105, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 106, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 107, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 108, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 109, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 110, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 111, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 112, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 0, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "GLOBAL MIDI CHANNEL (0..15)" , "Id": 113, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 15, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "MIDI CLOCK SOURCE (0=internal  1=external)" , "Id": 114, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "MASTER TUNE CENTS" , "Id": 115, "Type": "NRPN", "ZeroSign": 64, "Min": -64, "Max": 64, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "VELOCITY CURVE (0=soft  1=hard)" , "Id": 116, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EXTERNAL INPUT RANGE (0=line  1=mic)" , "Id": 117, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EXTERNAL INPUT TRIM (-10..+20 dB)" , "Id": 118, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "EXTERNAL INPUT TRIGGER SENSITIVITY (0 is most sensitive)" , "Id": 119, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "GLOBAL SYNC TYPE (0,1,2 = note when all notes off, first note after prog change, midi song start)" , "Id": 120, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 2, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PARAMETER MOMENTARY DISPLAY TIME (off.200..1200mS)" , "Id": 121, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "MENU INITIAL PAGE MODE (0=first  1=last used)" , "Id": 122, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "PROGRAM MODE PARAMETER DISPLAY MODE (0=timed   1=permanent)" , "Id": 123, "Type": "NRPN", "ZeroSign": 0, "Min": 0, "Max": 1, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 124, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 125, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 126, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}
+{ "Name": "--- (may be used in future software releases)" , "Id": 127, "Type": "NONE", "ZeroSign": 0, "Min": 0, "Max": 127, "NumParts": 1, "StartBit": 0, "BitCount": 7}

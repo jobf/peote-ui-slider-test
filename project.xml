@@ -24,6 +24,7 @@
 	<haxelib name="peote-layout" />
 	<haxelib name="input2action" />
 	<haxelib name="peote-ui" />
+	<haxelib name="grig.midi" />
 	
 	<!-- force compiling for a special opengl-es version (only set one of them) -->
 	<!-- this optimizes the build and forces no-runtimecheck for the gl-features -->
